@@ -2,7 +2,6 @@
 /* stylesheet for HW-Wireframe */
 
 
-
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777;
@@ -16,7 +15,6 @@ body {
 .header, .nav, .section, .aside, .footer {
   background: #ebebeb;
   padding: 35px 0;
-  /* everything went to shit without margin auto */
   margin: 10px auto;
 }
 
@@ -51,12 +49,13 @@ body {
 }
 
 .hdiv, .pdiv {
+  /* position: absolute; */
   padding: 20px 0;
   color: #777;
   background: #ebebeb;
   /* width: 490px; */
   width: 480px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .hdiv {
@@ -75,6 +74,5 @@ body {
 }
 
 .footer {
-  /* width: 100%; */
   clear: both;
 }
